@@ -1,0 +1,337 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.0  24728 15580 ?        Ss   11:23   0:09 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    11:23   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    11:23   0:00 [pool_workqueue_release]
+root           4  0.0  0.0      0     0 ?        I<   11:23   0:00 [kworker/R-rcu_gp]
+root           5  0.0  0.0      0     0 ?        I<   11:23   0:00 [kworker/R-sync_wq]
+root           6  0.0  0.0      0     0 ?        I<   11:23   0:00 [kworker/R-kvfree_rcu_reclaim]
+root           7  0.0  0.0      0     0 ?        I<   11:23   0:00 [kworker/R-slub_flushwq]
+root           8  0.0  0.0      0     0 ?        I<   11:23   0:00 [kworker/R-netns]
+root          10  0.0  0.0      0     0 ?        I<   11:23   0:00 [kworker/0:0H-events_highpri]
+root          13  0.0  0.0      0     0 ?        I<   11:23   0:00 [kworker/R-mm_percpu_wq]
+root          14  0.0  0.0      0     0 ?        S    11:23   0:01 [ksoftirqd/0]
+root          15  0.1  0.0      0     0 ?        I    11:23   1:12 [rcu_preempt]
+root          16  0.0  0.0      0     0 ?        S    11:23   0:00 [rcu_exp_par_gp_kthread_worker/0]
+root          17  0.0  0.0      0     0 ?        S    11:23   0:00 [rcu_exp_gp_kthread_worker]
+root          18  0.0  0.0      0     0 ?        S    11:23   0:01 [migration/0]
+root          19  0.0  0.0      0     0 ?        S    11:23   0:00 [idle_inject/0]
+root          20  0.0  0.0      0     0 ?        S    11:23   0:00 [cpuhp/0]
+root          21  0.0  0.0      0     0 ?        S    11:23   0:00 [cpuhp/2]
+root          22  0.0  0.0      0     0 ?        S    11:23   0:00 [idle_inject/2]
+root          23  0.0  0.0      0     0 ?        S    11:23   0:01 [migration/2]
+root          24  0.0  0.0      0     0 ?        S    11:23   0:00 [ksoftirqd/2]
+root          26  0.0  0.0      0     0 ?        I<   11:23   0:00 [kworker/2:0H-events_highpri]
+root          27  0.0  0.0      0     0 ?        S    11:23   0:00 [cpuhp/4]
+root          28  0.0  0.0      0     0 ?        S    11:23   0:00 [idle_inject/4]
+root          29  0.0  0.0      0     0 ?        S    11:23   0:01 [migration/4]
+root          30  0.0  0.0      0     0 ?        S    11:23   0:00 [ksoftirqd/4]
+root          32  0.0  0.0      0     0 ?        I<   11:23   0:00 [kworker/4:0H-events_highpri]
+root          33  0.0  0.0      0     0 ?        S    11:23   0:00 [cpuhp/6]
+root          34  0.0  0.0      0     0 ?        S    11:23   0:00 [idle_inject/6]
+root          35  0.0  0.0      0     0 ?        S    11:23   0:01 [migration/6]
+root          36  0.0  0.0      0     0 ?        S    11:23   0:00 [ksoftirqd/6]
+root          38  0.0  0.0      0     0 ?        I<   11:23   0:00 [kworker/6:0H-events_highpri]
+root          39  0.0  0.0      0     0 ?        S    11:23   0:00 [cpuhp/8]
+root          40  0.0  0.0      0     0 ?        S    11:23   0:00 [idle_inject/8]
+root          41  0.0  0.0      0     0 ?        S    11:23   0:10 [migration/8]
+root          42  0.0  0.0      0     0 ?        S    11:23   0:00 [ksoftirqd/8]
+root          44  0.0  0.0      0     0 ?        I<   11:23   0:00 [kworker/8:0H-events_highpri]
+root          45  0.0  0.0      0     0 ?        S    11:23   0:00 [cpuhp/9]
+root          46  0.0  0.0      0     0 ?        S    11:23   0:00 [idle_inject/9]
+root          47  0.0  0.0      0     0 ?        S    11:23   0:06 [migration/9]
+root          48  0.0  0.0      0     0 ?        S    11:23   0:00 [ksoftirqd/9]
+root          50  0.0  0.0      0     0 ?        I<   11:23   0:00 [kworker/9:0H-events_highpri]
+root          51  0.0  0.0      0     0 ?        S    11:23   0:00 [cpuhp/10]
+root          52  0.0  0.0      0     0 ?        S    11:23   0:00 [idle_inject/10]
+root          53  0.0  0.0      0     0 ?        S    11:23   0:04 [migration/10]
+root          54  0.0  0.0      0     0 ?        S    11:23   0:00 [ksoftirqd/10]
+root          56  0.0  0.0      0     0 ?        I<   11:23   0:00 [kworker/10:0H-events_highpri]
+root          57  0.0  0.0      0     0 ?        S    11:23   0:00 [cpuhp/11]
+root          58  0.0  0.0      0     0 ?        S    11:23   0:00 [idle_inject/11]
+root          59  0.0  0.0      0     0 ?        S    11:23   0:04 [migration/11]
+root          60  0.0  0.0      0     0 ?        S    11:23   0:00 [ksoftirqd/11]
+root          62  0.0  0.0      0     0 ?        I<   11:23   0:00 [kworker/11:0H-events_highpri]
+root          63  0.0  0.0      0     0 ?        S    11:23   0:00 [cpuhp/1]
+root          64  0.0  0.0      0     0 ?        S    11:23   0:00 [idle_inject/1]
+root          65  0.0  0.0      0     0 ?        S    11:23   0:00 [migration/1]
+root          66  0.0  0.0      0     0 ?        S    11:23   0:01 [ksoftirqd/1]
+root          68  0.0  0.0      0     0 ?        I<   11:23   0:00 [kworker/1:0H-events_highpri]
+root          69  0.0  0.0      0     0 ?        S    11:23   0:00 [cpuhp/3]
+root          70  0.0  0.0      0     0 ?        S    11:23   0:00 [idle_inject/3]
+root          71  0.0  0.0      0     0 ?        S    11:23   0:00 [migration/3]
+root          72  0.0  0.0      0     0 ?        S    11:23   0:00 [ksoftirqd/3]
+root          74  0.0  0.0      0     0 ?        I<   11:23   0:00 [kworker/3:0H-events_highpri]
+root          75  0.0  0.0      0     0 ?        S    11:23   0:00 [cpuhp/5]
+root          76  0.0  0.0      0     0 ?        S    11:23   0:00 [idle_inject/5]
+root          77  0.0  0.0      0     0 ?        S    11:23   0:00 [migration/5]
+root          78  0.0  0.0      0     0 ?        S    11:23   0:00 [ksoftirqd/5]
+root          80  0.0  0.0      0     0 ?        I<   11:23   0:00 [kworker/5:0H-events_highpri]
+root          81  0.0  0.0      0     0 ?        S    11:23   0:00 [cpuhp/7]
+root          82  0.0  0.0      0     0 ?        S    11:23   0:00 [idle_inject/7]
+root          83  0.0  0.0      0     0 ?        S    11:23   0:00 [migration/7]
+root          84  0.0  0.0      0     0 ?        S    11:23   0:00 [ksoftirqd/7]
+root          86  0.0  0.0      0     0 ?        I<   11:23   0:00 [kworker/7:0H-events_highpri]
+root          87  0.0  0.0      0     0 ?        S    11:23   0:00 [kdevtmpfs]
+root          88  0.0  0.0      0     0 ?        I<   11:23   0:00 [kworker/R-inet_frag_wq]
+root          89  0.0  0.0      0     0 ?        I    11:23   0:00 [rcu_tasks_kthread]
+root          90  0.0  0.0      0     0 ?        I    11:23   0:00 [rcu_tasks_rude_kthread]
+root          91  0.0  0.0      0     0 ?        I    11:23   0:00 [rcu_tasks_trace_kthread]
+root          92  0.0  0.0      0     0 ?        S    11:23   0:00 [kauditd]
+root          93  0.0  0.0      0     0 ?        S    11:23   0:00 [khungtaskd]
+root          94  0.0  0.0      0     0 ?        S    11:23   0:00 [oom_reaper]
+root          97  0.0  0.0      0     0 ?        I<   11:23   0:00 [kworker/R-writeback]
+root          98  0.0  0.0      0     0 ?        S    11:23   0:01 [kcompactd0]
+root          99  0.0  0.0      0     0 ?        SN   11:23   0:00 [ksmd]
+root         100  0.0  0.0      0     0 ?        SN   11:23   0:00 [khugepaged]
+root         101  0.0  0.0      0     0 ?        I<   11:23   0:00 [kworker/R-kblockd]
+root         102  0.0  0.0      0     0 ?        I<   11:23   0:00 [kworker/R-blkcg_punt_bio]
+root         103  0.0  0.0      0     0 ?        I<   11:23   0:00 [kworker/R-kintegrityd]
+root         105  0.0  0.0      0     0 ?        S    11:23   0:16 [irq/9-acpi]
+root         108  0.0  0.0      0     0 ?        I<   11:23   0:00 [kworker/R-tpm_dev_wq]
+root         109  0.0  0.0      0     0 ?        I<   11:23   0:00 [kworker/R-ata_sff]
+root         110  0.0  0.0      0     0 ?        I<   11:23   0:00 [kworker/R-md]
+root         111  0.0  0.0      0     0 ?        I<   11:23   0:00 [kworker/R-md_bitmap]
+root         112  0.0  0.0      0     0 ?        I<   11:23   0:00 [kworker/R-edac-poller]
+root         113  0.0  0.0      0     0 ?        I<   11:23   0:00 [kworker/R-devfreq_wq]
+root         115  0.0  0.0      0     0 ?        S    11:23   0:00 [watchdogd]
+root         116  0.0  0.0      0     0 ?        I<   11:23   0:00 [kworker/R-quota_events_unbound]
+root         117  0.0  0.0      0     0 ?        I<   11:23   0:02 [kworker/8:1H-i915_cleanup]
+root         118  0.0  0.0      0     0 ?        S    11:23   0:00 [kswapd0]
+root         119  0.0  0.0      0     0 ?        S    11:23   0:00 [ecryptfs-kthread]
+root         120  0.0  0.0      0     0 ?        I<   11:23   0:00 [kworker/R-kthrotld]
+root         121  0.0  0.0      0     0 ?        I<   11:23   0:00 [kworker/R-acpi_thermal_pm]
+root         124  0.0  0.0      0     0 ?        S    11:23   0:01 [hwrng]
+root         127  0.0  0.0      0     0 ?        I<   11:23   0:00 [kworker/R-hfi-updates]
+root         128  0.0  0.0      0     0 ?        I<   11:23   0:00 [kworker/R-mld]
+root         129  0.0  0.0      0     0 ?        I<   11:23   0:00 [kworker/3:1H-kblockd]
+root         130  0.0  0.0      0     0 ?        I<   11:23   0:00 [kworker/R-ipv6_addrconf]
+root         131  0.0  0.0      0     0 ?        I<   11:23   0:00 [kworker/R-kstrp]
+root         152  0.0  0.0      0     0 ?        I<   11:23   0:00 [kworker/R-charger_manager]
+root         153  0.0  0.0      0     0 ?        I<   11:23   0:01 [kworker/0:1H-i915_cleanup]
+root         176  0.0  0.0      0     0 ?        I<   11:23   0:01 [kworker/2:1H-events_highpri]
+root         180  0.0  0.0      0     0 ?        I<   11:23   0:01 [kworker/4:1H-i915_cleanup]
+root         202  0.0  0.0      0     0 ?        I<   11:23   0:02 [kworker/9:1H-kblockd]
+root         203  0.0  0.0      0     0 ?        I<   11:23   0:00 [kworker/5:1H-i915_cleanup]
+root         204  0.0  0.0      0     0 ?        I<   11:23   0:01 [kworker/10:1H-kblockd]
+root         207  0.0  0.0      0     0 ?        I<   11:23   0:00 [kworker/1:1H-i915_cleanup]
+root         209  0.0  0.0      0     0 ?        I<   11:23   0:01 [kworker/11:1H-i915_cleanup]
+root         211  0.0  0.0      0     0 ?        I<   11:23   0:00 [kworker/7:1H-kblockd]
+root         215  0.0  0.0      0     0 ?        I<   11:23   0:01 [kworker/6:1H-kblockd]
+root         276  0.0  0.0      0     0 ?        I<   11:23   0:00 [kworker/R-nvme-wq]
+root         277  0.0  0.0      0     0 ?        I<   11:23   0:00 [kworker/R-nvme-reset-wq]
+root         278  0.0  0.0      0     0 ?        I<   11:23   0:00 [kworker/R-nvme-delete-wq]
+root         279  0.0  0.0      0     0 ?        I<   11:23   0:00 [kworker/R-nvme-auth-wq]
+root         281  0.4  0.0      0     0 ?        S    11:23   3:00 [irq/143-ELAN06FA:00]
+root         284  0.0  0.0      0     0 ?        S    11:23   0:00 [spi0]
+root         321  0.0  0.0      0     0 ?        S    11:23   0:04 [jbd2/nvme0n1p5-8]
+root         322  0.0  0.0      0     0 ?        I<   11:23   0:00 [kworker/R-ext4-rsv-conversion]
+root         372  0.0  0.1  67304 20212 ?        S<s  11:23   0:02 /usr/lib/systemd/systemd-journald
+root         477  0.0  0.1  41288 19124 ?        Ss   11:23   0:19 /usr/lib/systemd/systemd-udevd
+root         484  0.0  0.0      0     0 ?        S    11:23   0:00 [psimon]
+root         623  0.0  0.0      0     0 ?        I<   11:23   0:00 [kworker/R-cfg80211]
+root         677  0.0  0.0      0     0 ?        S    11:23   0:00 [irq/16-processor_thermal_device_pci]
+root         703  0.0  0.0      0     0 ?        I<   11:23   0:00 [kworker/R-ttm]
+root         711  0.0  0.0      0     0 ?        S    11:23   0:00 [card1-crtc0]
+root         712  0.0  0.0      0     0 ?        S    11:23   0:00 [card1-crtc1]
+root         713  0.0  0.0      0     0 ?        S    11:23   0:00 [card1-crtc2]
+root         714  0.0  0.0      0     0 ?        S    11:23   0:00 [card1-crtc3]
+systemd+     849  0.0  0.0  17572  7664 ?        Ss   11:23   0:12 /usr/lib/systemd/systemd-oomd
+systemd+     850  0.0  0.0  22388 13788 ?        Ss   11:23   0:04 /usr/lib/systemd/systemd-resolved
+systemd+     851  0.0  0.0  91060  7916 ?        Ssl  11:23   0:00 /usr/lib/systemd/systemd-timesyncd
+root         865  2.2  0.0      0     0 ?        S    11:23  16:22 [irq/159-rtw89_pci]
+avahi       1029  0.5  0.0  12248  8224 ?        Ss   11:23   3:59 avahi-daemon: running [IdeaPad.local]
+root        1032  0.0  0.0  13808  7160 ?        Ss   11:23   0:00 /usr/libexec/bluetooth/bluetoothd
+message+    1036  0.0  0.0  12296  7420 ?        Ss   11:23   0:12 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+gnome-r+    1051  0.0  0.1 439224 16536 ?        Ssl  11:23   0:00 /usr/libexec/gnome-remote-desktop-daemon --system
+polkitd     1073  0.0  0.0 391016 12416 ?        Ssl  11:23   0:02 /usr/lib/polkit-1/polkitd --no-debug
+root        1082  0.0  0.0 313712  8088 ?        Ssl  11:23   0:04 /usr/libexec/power-profiles-daemon
+root        1105  0.0  0.0  12012  6008 ?        Ss   11:23   0:00 /usr/sbin/smartd -n
+root        1120  0.0  0.0 315488 10164 ?        Ssl  11:23   0:01 /usr/libexec/accounts-daemon
+root        1125  0.0  0.0   9432  2872 ?        Ss   11:23   0:00 /usr/sbin/cron -f -P
+root        1128  0.0  0.0 309816  6872 ?        Ssl  11:23   0:00 /usr/libexec/switcheroo-control
+root        1137  0.0  0.0  18192  9340 ?        Ss   11:23   0:01 /usr/lib/systemd/systemd-logind
+root        1139  0.0  0.0 424928 10760 ?        Ssl  11:23   0:13 /usr/sbin/thermald --systemd --dbus-enable --adaptive
+root        1141  0.0  0.0 470716 15400 ?        Ssl  11:23   0:01 /usr/libexec/udisks2/udisksd
+avahi       1152  0.0  0.0   8488  1516 ?        S    11:23   0:00 avahi-daemon: chroot helper
+syslog      1244  0.0  0.0 222572  6744 ?        Ssl  11:23   0:00 /usr/sbin/rsyslogd -n -iNONE
+root        1268  0.0  0.1 338172 21356 ?        Ssl  11:23   0:17 /usr/sbin/NetworkManager --no-daemon
+root        1275  0.0  0.0  18364 11932 ?        Ss   11:23   0:03 /usr/sbin/wpa_supplicant -u -s -O DIR=/run/wpa_supplicant GROUP=netdev
+root        1350  0.0  0.0 392188 12992 ?        Ssl  11:23   0:00 /usr/sbin/ModemManager
+root        1446  0.0  0.1 328372 20760 ?        Ssl  11:23   0:22 /usr/libexec/upowerd
+root        1543  0.0  0.0  39564 13232 ?        Ss   11:23   0:00 /usr/sbin/cupsd -l
+root        1552  0.0  0.1 117980 24724 ?        Ssl  11:23   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root        1553  0.1  0.2 2245804 47228 ?       Ssl  11:23   0:46 /usr/bin/containerd
+root        1585  0.0  0.0 314832  9288 ?        Ssl  11:23   0:00 /usr/sbin/gdm3
+mysql       1613  0.6  2.4 2376388 397348 ?      Ssl  11:23   4:59 /usr/sbin/mysqld
+rtkit       1682  0.0  0.0  22948  3496 ?        SNsl 11:23   0:00 /usr/libexec/rtkit-daemon
+root        1779  0.0  0.0      0     0 ?        S<   11:23   0:00 [krfcommd]
+colord      1852  0.0  0.0 320076 14736 ?        Ssl  11:23   0:00 /usr/libexec/colord
+cups-br+    2370  0.0  0.1 432664 24680 ?        Ssl  11:23   0:00 /usr/sbin/cups-browsed
+root        2371  0.0  0.4 2574436 76980 ?       Ssl  11:23   0:04 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+kernoops    2375  0.0  0.0  12752  2364 ?        Ss   11:23   0:00 /usr/sbin/kerneloops --test
+kernoops    2378  0.0  0.0  12752  2376 ?        Ss   11:23   0:00 /usr/sbin/kerneloops
+root        2409  0.0  0.5 2540892 89868 ?       Ssl  11:23   0:09 dockerd --group docker --exec-root=/run/snap.docker --data-root=/var/snap/docker/common/var-lib-docker --pidfile=/run/snap.docker/docker.pid --config-file=/var/snap/docker/3579/config/daemon.json
+root        2732  0.0  0.0 464060 12952 ?        Sl   11:23   0:00 gdm-session-worker [pam/gdm-password]
+root        2756  0.1  0.2 2265384 46600 ?       Ssl  11:23   0:48 containerd --config /run/snap.docker/containerd/containerd.toml
+lp          2765  0.0  0.0  16844  6964 ?        S    11:23   0:00 /usr/lib/cups/notifier/dbus dbus://
+alisha      2780  0.0  0.0  22080 13168 ?        Ss   11:23   0:08 /usr/lib/systemd/systemd --user
+alisha      2786  0.0  0.0  21476  3640 ?        S    11:23   0:00 (sd-pam)
+alisha      2812  0.0  0.1 120136 18388 ?        S<sl 11:23   0:04 /usr/bin/pipewire
+alisha      2813  0.0  0.0  97744  6012 ?        Ssl  11:23   0:00 /usr/bin/pipewire -c filter-chain.conf
+alisha      2817  0.1  0.2 567464 32464 ?        S<sl 11:23   1:26 /usr/bin/wireplumber
+alisha      2819  0.1  0.1 128332 28836 ?        S<sl 11:23   1:15 /usr/bin/pipewire-pulse
+alisha      2820  0.0  0.0 316800 10524 ?        SLsl 11:23   0:00 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+alisha      2830  0.0  0.0  11128  6920 ?        Ss   11:23   0:04 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+alisha      2878  0.0  0.0 610300  7548 ?        Ssl  11:23   0:00 /usr/libexec/xdg-document-portal
+alisha      2882  0.0  0.0 309316  6272 ?        Ssl  11:23   0:00 /usr/libexec/xdg-permission-store
+root        2889  0.0  0.0   2712  2044 ?        Ss   11:23   0:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+alisha      2922  0.0  0.0 235676  6260 tty2     Ssl+ 11:23   0:00 /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+alisha      2930  0.0  0.1 298244 16436 tty2     Sl+  11:23   0:00 /usr/libexec/gnome-session-binary --session=ubuntu
+alisha      3016  0.0  0.0 162660  6932 ?        Ssl  11:23   0:00 /usr/libexec/gcr-ssh-agent --base-dir /run/user/1000/gcr
+alisha      3018  0.0  0.0  91556  5640 ?        Ssl  11:23   0:00 /usr/libexec/gnome-session-ctl --monitor
+alisha      3036  0.0  0.0 314296  8248 ?        Ssl  11:23   0:00 /usr/libexec/gvfsd
+alisha      3048  0.0  0.0 459716  7340 ?        Sl   11:23   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+alisha      3052  0.0  0.1 520716 18604 ?        Ssl  11:23   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+alisha      3122  0.0  0.0 383032  8068 ?        Sl   11:23   0:00 /usr/libexec/at-spi-bus-launcher --launch-immediately
+alisha      3138  0.0  0.0   9620  5292 ?        S    11:23   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus
+alisha      3140  3.1  2.1 5204360 341440 ?      Ssl  11:23  22:46 /usr/bin/gnome-shell
+alisha      3359  0.0  0.0 236076  7836 ?        Sl   11:23   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+alisha      3662  0.0  0.1 654872 17524 ?        Sl   11:23   0:00 /usr/libexec/gnome-shell-calendar-server
+alisha      3679  0.0  0.2 1279332 42900 ?       Ssl  11:23   0:00 /usr/libexec/evolution-source-registry
+alisha      3686  0.0  0.0 230500  6272 ?        Ssl  11:23   0:00 /usr/libexec/dconf-service
+alisha      3727  0.0  0.1 2859232 27144 ?       Sl   11:23   0:00 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+alisha      3750  0.0  0.0 388844 12444 ?        Ssl  11:23   0:25 /usr/bin/ibus-daemon --panel disable
+alisha      3753  0.0  0.0 383612  6780 ?        Ssl  11:23   0:00 /usr/libexec/gsd-a11y-settings
+alisha      3758  0.0  0.1 419912 21240 ?        Ssl  11:23   0:00 /usr/libexec/gsd-color
+alisha      3762  0.0  0.0 431768 12484 ?        Ssl  11:23   0:00 /usr/libexec/gsd-datetime
+alisha      3766  0.0  0.0 459132  8372 ?        Ssl  11:23   0:01 /usr/libexec/gsd-housekeeping
+alisha      3767  0.0  0.1 418772 20912 ?        Ssl  11:23   0:00 /usr/libexec/gsd-keyboard
+alisha      3770  0.0  0.1 748632 26748 ?        Ssl  11:23   0:03 /usr/libexec/gsd-media-keys
+alisha      3772  0.0  0.1 673652 27384 ?        Ssl  11:23   0:03 /usr/libexec/gsd-power
+alisha      3781  0.0  0.0 323788 11724 ?        Ssl  11:23   0:00 /usr/libexec/gsd-print-notifications
+alisha      3782  0.0  0.0 531092  6872 ?        Ssl  11:23   0:00 /usr/libexec/gsd-rfkill
+alisha      3786  0.0  0.0 309568  6476 ?        Ssl  11:23   0:00 /usr/libexec/gsd-screensaver-proxy
+alisha      3793  0.0  0.0 543548 12548 ?        Ssl  11:23   0:02 /usr/libexec/gsd-sharing
+alisha      3794  0.0  0.0 385912  8432 ?        Ssl  11:23   0:00 /usr/libexec/gsd-smartcard
+alisha      3798  0.0  0.0 393728  9860 ?        Ssl  11:23   0:00 /usr/libexec/gsd-sound
+alisha      3801  0.0  0.1 419760 21516 ?        Ssl  11:23   0:00 /usr/libexec/gsd-wacom
+alisha      3823  0.0  0.0 389656 11620 ?        Ssl  11:23   0:03 /usr/libexec/gvfs-udisks2-volume-monitor
+alisha      3851  0.0  0.1 546772 24216 ?        Sl   11:23   0:00 /usr/libexec/goa-daemon
+alisha      3891  0.0  0.0 305500  8396 ?        Sl   11:23   0:00 /usr/libexec/gsd-disk-utility-notify
+alisha      3911  0.0  0.1 1241960 21532 ?       Sl   11:23   0:01 /home/alisha/ArduinoCloudAgent/Arduino_Cloud_Agent
+alisha      3921  0.0  0.3 911404 61116 ?        Sl   11:23   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+alisha      3971  0.0  0.0 389132  9436 ?        Sl   11:23   0:00 /usr/libexec/goa-identity-service
+alisha      3975  0.0  0.0 236652  7220 ?        Sl   11:23   0:00 /usr/libexec/ibus-memconf
+alisha      3976  0.0  0.1 428568 30556 ?        Sl   11:23   0:09 /usr/libexec/ibus-extension-gtk3
+alisha      3983  0.0  0.0 310432  7376 ?        Sl   11:23   0:00 /usr/libexec/ibus-portal
+alisha      4015  0.0  0.1 1300440 24512 ?       Ssl  11:23   0:00 /usr/libexec/evolution-calendar-factory
+alisha      4067  0.0  0.0 310768  7204 ?        Ssl  11:23   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+alisha      4072  0.0  0.0 416248 15220 ?        Sl   11:23   0:00 /usr/libexec/gsd-printer
+alisha      4088  0.0  0.0 309800  6772 ?        Ssl  11:23   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+alisha      4115  0.0  0.1 825540 29964 ?        Ssl  11:23   0:00 /usr/libexec/evolution-addressbook-factory
+alisha      4120  0.0  0.0 309780  6624 ?        Ssl  11:23   0:00 /usr/libexec/gvfs-goa-volume-monitor
+alisha      4139  0.0  0.0 389388  8244 ?        Ssl  11:23   0:01 /usr/libexec/gvfs-afc-volume-monitor
+alisha      4155  0.0  0.5 561020 85136 ?        Sl   11:23   0:01 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.WUI2U3 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients
+alisha      4223  0.0  0.0 237160  7816 ?        Sl   11:23   0:08 /usr/libexec/ibus-engine-simple
+alisha      4441  0.0  0.0 609448  9480 ?        Sl   11:23   0:00 /usr/libexec/gvfsd-trash --spawner :1.21 /org/gtk/gvfs/exec_spaw/0
+alisha      4564  0.0  0.0 628024 15088 ?        Ssl  11:23   0:01 /usr/libexec/xdg-desktop-portal
+alisha      4745  0.0  0.2 889344 41912 ?        SNsl 11:23   0:19 /usr/libexec/tracker-miner-fs-3
+alisha      4750  0.0  0.2 844128 42900 ?        Ssl  11:23   0:01 /usr/libexec/xdg-desktop-portal-gnome
+alisha      4856  0.0  0.1 2932972 27344 ?       Sl   11:23   0:00 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+alisha      4912  0.0  0.5 794036 82188 ?        Ssl  11:23   0:00 /usr/libexec/gsd-xsettings
+alisha      5007  0.0  0.1 425168 28732 ?        Ssl  11:23   0:00 /usr/libexec/xdg-desktop-portal-gtk
+alisha      5033  0.0  0.0 236596  6988 ?        Ssl  11:23   0:00 /usr/libexec/gvfsd-metadata
+alisha      5039  0.0  0.1 267160 24880 ?        Sl   11:23   0:00 /usr/libexec/ibus-x11
+alisha      5061  0.0  0.5 1021916 84804 ?       Sl   11:23   0:01 /usr/libexec/mutter-x11-frames
+alisha      5278  0.0  0.0 303928  6304 ?        Ssl  11:23   0:00 /snap/snapd-desktop-integration/391/usr/bin/user-session-helper /snap/snapd-desktop-integration/391/usr/bin/snapd-desktop-integration
+alisha      5369  0.0  0.2 440500 36852 ?        Sl   11:23   0:00 /snap/snapd-desktop-integration/391/usr/bin/snapd-desktop-integration
+alisha      5447  2.7  3.7 51407828 598856 ?     SLl  11:23  20:14 /opt/google/chrome/chrome
+alisha      5453  0.0  0.0   8436  1892 ?        S    11:23   0:00 cat
+alisha      5454  0.0  0.0   8436  1888 ?        S    11:23   0:00 cat
+alisha      5456  0.0  0.0 50354856 4024 ?       Sl   11:23   0:00 /opt/google/chrome/chrome_crashpad_handler --monitor-self --monitor-self-annotation=ptype=crashpad-handler --database=/home/alisha/.config/google-chrome/Crash Reports --metrics-dir=/home/alisha/.config/google-chrome --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Ubuntu 24.04.4 LTS --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=145.0.7632.159 --initial-client-fd=5 --shared-client-connection
+alisha      5458  0.0  0.0 50345620 3380 ?       Sl   11:23   0:00 /opt/google/chrome/chrome_crashpad_handler --no-periodic-tasks --monitor-self-annotation=ptype=crashpad-handler --database=/home/alisha/.config/google-chrome/Crash Reports --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Ubuntu 24.04.4 LTS --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=145.0.7632.159 --initial-client-fd=4 --shared-client-connection
+alisha      5464  0.0  0.3 51007444 62492 ?      S    11:23   0:00 /opt/google/chrome/chrome --type=zygote --no-zygote-sandbox --crashpad-handler-pid=5456 --enable-crash-reporter=eb3827c5-e47f-4b48-a0b7-f715216fc9ea, --change-stack-guard-on-fork=enable
+alisha      5465  0.0  0.3 51007432 62292 ?      S    11:23   0:00 /opt/google/chrome/chrome --type=zygote --crashpad-handler-pid=5456 --enable-crash-reporter=eb3827c5-e47f-4b48-a0b7-f715216fc9ea, --change-stack-guard-on-fork=enable
+alisha      5467  0.0  0.1 51007456 18420 ?      S    11:23   0:00 /opt/google/chrome/chrome --type=zygote --crashpad-handler-pid=5456 --enable-crash-reporter=eb3827c5-e47f-4b48-a0b7-f715216fc9ea, --change-stack-guard-on-fork=enable
+alisha      5496  4.3  1.8 51648992 301304 ?     Sl   11:23  31:35 /opt/google/chrome/chrome --type=gpu-process --ozone-platform=wayland --render-node-override=/dev/dri/renderD128 --crashpad-handler-pid=5456 --enable-crash-reporter=eb3827c5-e47f-4b48-a0b7-f715216fc9ea, --change-stack-guard-on-fork=enable --gpu-preferences=UAAAAAAAAAAgAQAEAAAAAAAAAAAAAGAAAQAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --shared-files --metrics-shmem-handle=4,i,9698585011072122610,13279318647454106514,262144 --field-trial-handle=3,i,5245692847324255825,236952606408602400,262144 --disable-features=EyeDropper --variations-seed-version=20260827-170054.508000-production --trace-process-track-uuid=3190708988185955192
+alisha      5502  0.5  1.0 50820680 166900 ?     Sl   11:23   4:16 /opt/google/chrome/chrome --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --render-node-override=/dev/dri/renderD128 --crashpad-handler-pid=5456 --enable-crash-reporter=eb3827c5-e47f-4b48-a0b7-f715216fc9ea, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,5380324995282596720,6388653755625417588,524288 --field-trial-handle=3,i,5245692847324255825,236952606408602400,262144 --disable-features=EyeDropper --variations-seed-version=20260827-170054.508000-production --trace-process-track-uuid=3190708989122997041
+alisha      5512  0.0  0.3 51092448 61408 ?      Sl   11:23   0:10 /opt/google/chrome/chrome --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=utility --render-node-override=/dev/dri/renderD128 --crashpad-handler-pid=5456 --enable-crash-reporter=eb3827c5-e47f-4b48-a0b7-f715216fc9ea, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,12748528567065784125,14407111365869011189,524288 --field-trial-handle=3,i,5245692847324255825,236952606408602400,262144 --disable-features=EyeDropper --variations-seed-version=20260827-170054.508000-production --trace-process-track-uuid=3190708990060038890
+alisha      5579  0.0  0.7 1461763768 123396 ?   Sl   11:23   0:05 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=5456 --enable-crash-reporter=eb3827c5-e47f-4b48-a0b7-f715216fc9ea, --extension-process --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=8 --time-ticks-at-unix-epoch=-1788501195227090 --launch-time-ticks=34201614 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,17653175465472763786,14801172010180135153,2097152 --field-trial-handle=3,i,5245692847324255825,236952606408602400,262144 --disable-features=EyeDropper --variations-seed-version=20260827-170054.508000-production --trace-process-track-uuid=3190708993808206286
+alisha      5586  0.0  0.7 1461753948 123544 ?   Sl   11:23   0:05 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=5456 --enable-crash-reporter=eb3827c5-e47f-4b48-a0b7-f715216fc9ea, --extension-process --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=10 --time-ticks-at-unix-epoch=-1788501195227090 --launch-time-ticks=34212081 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,4628155336435466728,13207930984099921431,2097152 --field-trial-handle=3,i,5245692847324255825,236952606408602400,262144 --disable-features=EyeDropper --variations-seed-version=20260827-170054.508000-production --trace-process-track-uuid=3190708995682289984
+alisha      5738  0.0  0.7 1460041256 125116 ?   Sl   11:23   0:01 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=5456 --enable-crash-reporter=eb3827c5-e47f-4b48-a0b7-f715216fc9ea, --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=15 --time-ticks-at-unix-epoch=-1788501195227090 --launch-time-ticks=38250293 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,968836679989156519,2712951028905341853,2097152 --field-trial-handle=3,i,5245692847324255825,236952606408602400,262144 --disable-features=EyeDropper --variations-seed-version=20260827-170054.508000-production --trace-process-track-uuid=3190709000367499229
+alisha      5754  1.5  2.4 1463610068 392844 ?   Sl   11:23  11:35 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=5456 --enable-crash-reporter=eb3827c5-e47f-4b48-a0b7-f715216fc9ea, --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=17 --time-ticks-at-unix-epoch=-1788501195227090 --launch-time-ticks=40921600 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,15444973941118521996,7373796863049880767,2097152 --field-trial-handle=3,i,5245692847324255825,236952606408602400,262144 --disable-features=EyeDropper --variations-seed-version=20260827-170054.508000-production --trace-process-track-uuid=3190709002241582927
+alisha      5783  0.0  1.3 1461773308 208852 ?   Sl   11:23   0:35 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=5456 --enable-crash-reporter=eb3827c5-e47f-4b48-a0b7-f715216fc9ea, --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=19 --time-ticks-at-unix-epoch=-1788501195227090 --launch-time-ticks=41183249 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,14666005356836098324,16082841771797900396,2097152 --field-trial-handle=3,i,5245692847324255825,236952606408602400,262144 --disable-features=EyeDropper --variations-seed-version=20260827-170054.508000-production --trace-process-track-uuid=3190709004115666625
+alisha      5938  0.0  1.3 1461807812 215188 ?   Sl   11:24   0:10 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=5456 --enable-crash-reporter=eb3827c5-e47f-4b48-a0b7-f715216fc9ea, --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=21 --time-ticks-at-unix-epoch=-1788501195227090 --launch-time-ticks=46116664 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,16314818582707267304,13098463301081979459,2097152 --field-trial-handle=3,i,5245692847324255825,236952606408602400,262144 --disable-features=EyeDropper --variations-seed-version=20260827-170054.508000-production --trace-process-track-uuid=3190709005989750323
+alisha      6033  0.6  0.5 50832884 89056 ?      Sl   11:24   5:04 /opt/google/chrome/chrome --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbox-type=none --render-node-override=/dev/dri/renderD128 --crashpad-handler-pid=5456 --enable-crash-reporter=eb3827c5-e47f-4b48-a0b7-f715216fc9ea, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,17640904495010346044,7658190139184811476,524288 --field-trial-handle=3,i,5245692847324255825,236952606408602400,262144 --disable-features=EyeDropper --variations-seed-version=20260827-170054.508000-production --trace-process-track-uuid=3190709012549043266
+alisha      6102  0.0  0.2 576696 34940 ?        Sl   11:24   0:01 /usr/bin/update-notifier
+alisha      7593  0.3  1.2 762620 202644 ?       SNl  11:51   2:29 /usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map
+root        8229  0.0  0.3 637776 48864 ?        Ssl  12:00   0:06 /usr/libexec/fwupd/fwupd
+root        8582  0.0  0.0      0     0 ?        I    13:58   0:01 [kworker/7:3-mm_percpu_wq]
+alisha      8703  0.0  0.0 1229320 5476 ?        Sl   13:58   0:02 /home/alisha/.arduino-create/builtin/serial-discovery/1.5.2/serial-discovery
+alisha      8856  8.8  3.0 1460071356 484908 ?   Rl   13:58  51:01 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=5456 --enable-crash-reporter=eb3827c5-e47f-4b48-a0b7-f715216fc9ea, --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=61 --time-ticks-at-unix-epoch=-1788501195227090 --launch-time-ticks=4107152665 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,6793935233130279685,590405472087192238,2097152 --field-trial-handle=3,i,5245692847324255825,236952606408602400,262144 --disable-features=EyeDropper --variations-seed-version=20260827-170054.508000-production --trace-process-track-uuid=3190709043471424283
+alisha      8885  0.0  1.2 1460084332 199984 ?   Sl   13:58   0:08 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=5456 --enable-crash-reporter=eb3827c5-e47f-4b48-a0b7-f715216fc9ea, --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=64 --time-ticks-at-unix-epoch=-1788501195227090 --launch-time-ticks=4114172685 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,4105499974160206700,9874003379446398093,2097152 --field-trial-handle=3,i,5245692847324255825,236952606408602400,262144 --disable-features=EyeDropper --variations-seed-version=20260827-170054.508000-production --trace-process-track-uuid=3190709046282549830
+alisha      8912  2.9  4.8 1484162092 781772 ?   Sl   13:58  17:17 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=5456 --enable-crash-reporter=eb3827c5-e47f-4b48-a0b7-f715216fc9ea, --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=67 --time-ticks-at-unix-epoch=-1788501195227090 --launch-time-ticks=4114766872 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,3079328087110571192,7745920458343082798,2097152 --field-trial-handle=3,i,5245692847324255825,236952606408602400,262144 --disable-features=EyeDropper --variations-seed-version=20260827-170054.508000-production --trace-process-track-uuid=3190709049093675377
+alisha      8918  0.0  0.8 1460064152 131880 ?   Sl   13:58   0:01 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=5456 --enable-crash-reporter=eb3827c5-e47f-4b48-a0b7-f715216fc9ea, --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=68 --time-ticks-at-unix-epoch=-1788501195227090 --launch-time-ticks=4114789067 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,15725283188395383417,14825348669201365671,2097152 --field-trial-handle=3,i,5245692847324255825,236952606408602400,262144 --disable-features=EyeDropper --variations-seed-version=20260827-170054.508000-production --trace-process-track-uuid=3190709050030717226
+alisha      8985  6.9  2.7 1460139868 448444 ?   Sl   13:58  40:15 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=5456 --enable-crash-reporter=eb3827c5-e47f-4b48-a0b7-f715216fc9ea, --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=70 --time-ticks-at-unix-epoch=-1788501195227090 --launch-time-ticks=4117283735 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,13053932301923928120,17983441512153146192,2097152 --field-trial-handle=3,i,5245692847324255825,236952606408602400,262144 --disable-features=EyeDropper --variations-seed-version=20260827-170054.508000-production --trace-process-track-uuid=3190709051904800924
+alisha      9030  0.0  1.6 1460070736 257268 ?   Sl   13:58   0:15 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=5456 --enable-crash-reporter=eb3827c5-e47f-4b48-a0b7-f715216fc9ea, --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=65 --time-ticks-at-unix-epoch=-1788501195227090 --launch-time-ticks=4120884969 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,15321289852706841351,5361521297627520466,2097152 --field-trial-handle=3,i,5245692847324255825,236952606408602400,262144 --disable-features=EyeDropper --variations-seed-version=20260827-170054.508000-production --trace-process-track-uuid=3190709047219591679
+root        9145  0.0  0.0      0     0 ?        I    14:00   0:02 [kworker/10:0-events]
+alisha     11880  0.3  1.9 1460069052 318160 ?   Sl   15:57   1:22 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=5456 --enable-crash-reporter=eb3827c5-e47f-4b48-a0b7-f715216fc9ea, --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=164 --time-ticks-at-unix-epoch=-1788501195227090 --launch-time-ticks=11273307496 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,16946727047475182007,10866975008436279433,2097152 --field-trial-handle=3,i,5245692847324255825,236952606408602400,262144 --disable-features=EyeDropper --variations-seed-version=20260827-170054.508000-production --trace-process-track-uuid=3190709139986734730
+alisha     12069  0.4  1.5 1461812736 244824 ?   Sl   16:04   1:56 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=5456 --enable-crash-reporter=eb3827c5-e47f-4b48-a0b7-f715216fc9ea, --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=172 --time-ticks-at-unix-epoch=-1788501195227090 --launch-time-ticks=11651634941 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,14379521704027615121,16872114056734063029,2097152 --field-trial-handle=3,i,5245692847324255825,236952606408602400,262144 --disable-features=EyeDropper --variations-seed-version=20260827-170054.508000-production --trace-process-track-uuid=3190709147483069522
+alisha     12214  0.0  1.2 1460074716 207820 ?   Sl   16:09   0:20 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=5456 --enable-crash-reporter=eb3827c5-e47f-4b48-a0b7-f715216fc9ea, --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=179 --time-ticks-at-unix-epoch=-1788501195227090 --launch-time-ticks=11966281211 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,17548762896844579822,6531932419967497815,2097152 --field-trial-handle=3,i,5245692847324255825,236952606408602400,262144 --disable-features=EyeDropper --variations-seed-version=20260827-170054.508000-production --trace-process-track-uuid=3190709154042362465
+root       12814  0.0  0.0      0     0 ?        I    16:40   0:01 [kworker/9:1-events]
+alisha     12928  0.1  2.0 1460086976 330684 ?   Sl   16:54   0:37 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=5456 --enable-crash-reporter=eb3827c5-e47f-4b48-a0b7-f715216fc9ea, --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=214 --time-ticks-at-unix-epoch=-1788501195227090 --launch-time-ticks=14691005456 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,1348595011265844887,11500375754774930339,2097152 --field-trial-handle=3,i,5245692847324255825,236952606408602400,262144 --disable-features=EyeDropper --variations-seed-version=20260827-170054.508000-production --trace-process-track-uuid=3190709186838827180
+alisha     13368  5.6  3.4 1460141232 550132 ?   Sl   17:57  19:06 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=5456 --enable-crash-reporter=eb3827c5-e47f-4b48-a0b7-f715216fc9ea, --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=222 --time-ticks-at-unix-epoch=-1788501195227090 --launch-time-ticks=15390234995 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,3704367385696488568,15735096846078091691,2097152 --field-trial-handle=3,i,5245692847324255825,236952606408602400,262144 --disable-features=EyeDropper --variations-seed-version=20260827-170054.508000-production --trace-process-track-uuid=3190709194335161972
+root       13517  0.0  0.0      0     0 ?        I    18:00   0:05 [kworker/8:1-mm_percpu_wq]
+alisha     13616  0.0  0.1  37692 21180 ?        S    18:02   0:00 /usr/bin/python3 /usr/bin/gnome-terminal --wait
+alisha     13619  0.0  0.1 465968 29964 ?        Sl   18:02   0:00 /usr/bin/gnome-terminal.real --wait
+alisha     13625  0.2  0.3 635400 59800 ?        Ssl  18:02   0:42 /usr/libexec/gnome-terminal-server
+alisha     13633  0.0  0.0  15168  9488 pts/0    Ss   18:02   0:00 bash
+root       16692  0.0  0.0      0     0 ?        I    18:10   0:02 [kworker/4:0-events]
+root       16791  0.0  0.0      0     0 ?        S    21:23   0:00 [irq/142-mei_me]
+root       16869  0.0  0.0      0     0 ?        I    21:23   0:00 [kworker/5:2-events]
+root       17337  0.0  0.0      0     0 ?        I    21:40   0:02 [kworker/6:1-events]
+root       17550  0.2  0.0      0     0 ?        I    21:49   0:14 [kworker/u48:2-flush-259:0]
+alisha     17666  0.0  0.0 671676 13964 ?        Sl   21:53   0:02 /usr/libexec/gvfsd-recent --spawner :1.21 /org/gtk/gvfs/exec_spaw/1
+alisha     18184  0.8  1.7 1461815684 282008 ?   Sl   22:11   0:46 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=5456 --enable-crash-reporter=eb3827c5-e47f-4b48-a0b7-f715216fc9ea, --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=276 --time-ticks-at-unix-epoch=-1788501195227090 --launch-time-ticks=19219362357 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,12457743721793244724,1313687675334631633,2097152 --field-trial-handle=3,i,5245692847324255825,236952606408602400,262144 --disable-features=EyeDropper --variations-seed-version=20260827-170054.508000-production --trace-process-track-uuid=3190709244935421818
+root       18498  0.2  0.3 2591352 48488 ?       Ssl  22:12   0:13 /snap/snapd/current/usr/lib/snapd/snapd
+root       18921  0.0  0.0      0     0 ?        S    22:12   0:00 [psimon]
+root       19030  0.0  0.0      0     0 ?        I    22:20   0:01 [kworker/0:2-events]
+root       19032  0.3  0.1  41292 16512 ?        S    22:20   0:16 (udev-worker)
+root       19033  0.0  0.1  41292 16512 ?        S    22:20   0:00 (udev-worker)
+root       19038  0.0  0.0      0     0 ?        I    22:20   0:01 [kworker/3:2-events]
+root       19203  0.0  0.0      0     0 ?        I    22:22   0:01 [kworker/1:2-mm_percpu_wq]
+alisha     19683  0.0  0.4 3223660 68328 ?       Sl   22:47   0:00 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app
+root       19781  0.1  0.0      0     0 ?        I<   22:50   0:03 [kworker/u49:3-rtw89_tx_wq]
+root       19853  0.0  0.0      0     0 ?        I    22:52   0:01 [kworker/2:1-events]
+root       20092  0.1  0.0      0     0 ?        I<   23:04   0:02 [kworker/u49:1-i915_flip]
+root       20320  0.2  0.0      0     0 ?        I    23:10   0:03 [kworker/u48:4-events_unbound]
+root       20567  0.0  0.0      0     0 ?        I    23:19   0:00 [kworker/11:2-mm_percpu_wq]
+root       20661  0.2  0.0      0     0 ?        I    23:20   0:03 [kworker/u48:3-events_unbound]
+root       20720  0.2  0.0      0     0 ?        I    23:25   0:01 [kworker/u48:0-events_unbound]
+root       20822  0.0  0.0      0     0 ?        I    23:27   0:00 [kworker/7:1-events]
+root       20823  0.0  0.0      0     0 ?        I    23:27   0:00 [kworker/9:0-events]
+root       20830  0.0  0.0      0     0 ?        I    23:28   0:00 [kworker/2:0-events]
+root       20833  0.0  0.0      0     0 ?        I    23:28   0:00 [kworker/10:1-mm_percpu_wq]
+root       20839  0.0  0.0      0     0 ?        I    23:28   0:00 [kworker/8:0-i915-unordered]
+root       20841  0.0  0.0      0     0 ?        I    23:28   0:00 [kworker/3:0-events]
+root       20856  0.0  0.0      0     0 ?        I    23:29   0:00 [kworker/11:0-events]
+root       20866  0.0  0.0      0     0 ?        I    23:30   0:00 [kworker/5:0]
+root       20872  0.0  0.0      0     0 ?        I    23:30   0:00 [kworker/4:2-events]
+root       20885  0.0  0.0      0     0 ?        I    23:31   0:00 [kworker/6:0-events]
+root       20893  0.0  0.0      0     0 ?        I<   23:31   0:00 [kworker/u49:2-rtw89_tx_wq]
+alisha     20894  0.0  0.4 1459974536 76632 ?    Sl   23:31   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=5456 --enable-crash-reporter=eb3827c5-e47f-4b48-a0b7-f715216fc9ea, --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=321 --time-ticks-at-unix-epoch=-1788501195227090 --launch-time-ticks=24016990120 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,18160590137945076667,3028053638607410481,2097152 --field-trial-handle=3,i,5245692847324255825,236952606408602400,262144 --disable-features=EyeDropper --variations-seed-version=20260827-170054.508000-production --trace-process-track-uuid=3190709287102305023
+root       20907  0.0  0.0      0     0 ?        I    23:31   0:00 [kworker/1:0-mm_percpu_wq]
+root       20931  0.0  0.0      0     0 ?        I    23:32   0:00 [kworker/0:0-mm_percpu_wq]
+root       20951  0.0  0.0      0     0 ?        I    23:33   0:00 [kworker/2:2-events]
+root       20987  0.0  0.0      0     0 ?        I    23:35   0:00 [kworker/11:1-i915-unordered]
+alisha     21006  8.8  2.0 2193320 324148 ?      Sl   23:35   0:12 /usr/bin/nautilus --gapplication-service
+root       21056  0.0  0.0      0     0 ?        I    23:35   0:00 [kworker/8:2-i915-unordered]
+root       21057  0.0  0.0      0     0 ?        I    23:35   0:00 [kworker/3:1-events]
+root       21058  0.0  0.0      0     0 ?        I    23:35   0:00 [kworker/7:0-events]
+root       21068  0.0  0.0      0     0 ?        I    23:36   0:00 [kworker/10:2]
+root       21076  0.0  0.0      0     0 ?        I    23:36   0:00 [kworker/9:2-mm_percpu_wq]
+alisha     21078  0.3  0.7 1461767196 126180 ?   Sl   23:36   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=5456 --enable-crash-reporter=eb3827c5-e47f-4b48-a0b7-f715216fc9ea, --origin-trial-disabled-features=CanvasTextNg|WebAssemblyCustomDescriptors --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=326 --time-ticks-at-unix-epoch=-1788501195227090 --launch-time-ticks=24300006301 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,7386806948929176931,4071476868885863469,2097152 --field-trial-handle=3,i,5245692847324255825,236952606408602400,262144 --disable-features=EyeDropper --variations-seed-version=20260827-170054.508000-production --trace-process-track-uuid=3190709291787514268
+root       21102  0.0  0.0      0     0 ?        I    23:36   0:00 [kworker/4:1-events]
+root       21133  0.0  0.0      0     0 ?        I    23:37   0:00 [kworker/6:2-events]
+alisha     21140  0.0  0.0   9948  3712 pts/0    S+   23:37   0:00 /bin/bash ./system_info.sh
+alisha     21148  0.0  0.0  13756  4748 pts/0    R+   23:37   0:00 ps aux
