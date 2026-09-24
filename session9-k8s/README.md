@@ -23,7 +23,10 @@ kubectl version --client
 ### Output
 
 ```text
-[Paste your actual terminal output here]
+minikube version: v1.39.0
+commit: 7a9f6a841470a207de8cf4bafccc ee0969d8ba10
+Client Version: v1.36.4
+Kustomize Version: v5.8.1
 ```
 
 ### Screenshot
@@ -47,8 +50,16 @@ minikube start
 ### Output
 
 ```text
-[Paste your actual terminal output here]
-```
+minikube start --driver=docker
+
+😄  minikube v1.39.0 on Ubuntu 24.04
+✨  Using the docker driver based on existing profile
+👍  Starting "minikube" primary control-plane node in "minikube" cluster
+📦  Preparing Kubernetes v1.37.0 on containerd 2.3.4 ...
+🔎  Verifying Kubernetes components...
+🔌  Using image gcr.io/k8s-minikube/storage-provisioner:v5
+🌟  Enabled addons: default-storageclass, storage-provisioner
+🏁  Done! kubectl is now configured to use "minikube" cluster and "default" namespace by default```
 
 ### Screenshot
 
@@ -72,8 +83,15 @@ kubectl get nodes -o wide
 ### Output
 
 ```text
-[Paste your actual terminal output here]
-```
+minikube
+type: Control Plane
+host: Running
+kubelet: Running
+apiserver: Running
+kubeconfig: Configured
+
+NAME      STATUS   ROLES           AGE   VERSION   INTERNAL-IP    EXTERNAL-IP   OS-IMAGE                  KERNEL-VERSION       CONTAINER-RUNTIME
+minikube  Ready    control-plane   16d   v1.37.0   192.168.49.2   <none>        Debian GNU/Linux 12      7.0.0-31-generic     containerd://2.3.4```
 
 ### Screenshot
 
@@ -97,8 +115,16 @@ minikube status
 ### Output
 
 ```text
-[Paste your actual terminal output here]
-```
+Stopping node "minikube" ...
+Powering off "minikube" via SSH ...
+1 node stopped.
+
+minikube
+type: Control Plane
+host: Stopped
+kubelet: Stopped
+apiserver: Stopped
+kubeconfig: Stopped```
 
 ### Screenshot
 
